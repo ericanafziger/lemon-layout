@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.teal-border {
+  border: 5px solid teal;
+  padding: 300px 150px;
+  position: absolute;
+}
+.text {
+  border: 1px solid #a267e5;
+  float: left;
+  width: 500px;
+  height: 400px;
+  position: relative;
+  left: 18px;
+}
+.header h3 {
+  text-align: center;
+  display: inline;
+  margin-left: 45%;
+  font-weight: lighter;
+}
+.numbers {
+  letter-spacing: 8px;
+  display: inline;
+  text-align: right;
+  padding-left: 135px;
+  font-weight: lighter;
+}
+.header {
+  color: #a267e5;
+  border-bottom: 1px solid #a267e5;
+  padding: 10px;
+}
+.text p {
+  padding: 40px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-size: 1.2em;
+  color: #444;
+}
+
+.lemon {
+  float: left;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  background-color: gray;
+  position: relative;
+  right: 18px;
+}
+
+.inside-lemon {
+  background-color: lightblue;
+  color: #a267e5;
+  border: 4px solid #6677FF;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.inside-lemon img {
+  margin-top: 10px;
+}
+.inside-lemon p {
+  background-color: lightgrey;
+  border: 2px solid grey;
+  padding: 10px;
+  margin: 15px;
+  margin-top: 40px;
+  text-align: left;
+}
